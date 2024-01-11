@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <title>HTML, CSS, JS</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/tehnikum-coding-logo.svg" alt="technikum-coding-logo" class="logo">
+        <div class="headerCourseInfo">
+            <div>
+                <p class="caption">старт</p>
+                <p class="captionBold">1 декабря</p>
+            </div>
+            <div>
+                <p class="caption">длительность</p>
+                <p class="captionBold">2 месяца | 24 занятия</p>
+            </div>
+        </div>
+        <h1>HTML, CSS, JS</h1>
+        <p class="headerDescription">Верстальщик – это специалист, который кодит страницы web-сайтов, разбивает текст на
+            отдельные страницы,
+            компонует его с иллюстрациями. Он умеет создавать HTML-шаблоны для веб-сайтов и писать HTML-код, знает, как
+            графически оформить страницу и правильно расположить на ней элемент, и знаком со стилями</p>
+        <div class="buttonWrapper">
+            <button>Получить программу курса</button>
+            <button class="secondaryButton">Записаться на курс</button>
+        </div>
+        <img src="images/figma-image.png" alt="figma-image" class="figma-image">
+    </header>
+
+    <section class="forWhom">
+        <h2>Этот курс для тебя, если ты...</h2>
+        <div class="forWhomWrapper">
+            <div class="backend-dev">
+                <img src="images/backend-dev.png" alt="backend-dev">
+                <h5>Backend разработчик</h5>
+                <p>Если ты уже владеешь навыками Backend разработки, то изучив HTML, CSS, JavaScript получишь базу,
+                    чтобы начать изучение frontend и встать на путь full-stack разработчика</p>
+            </div>
+            <div class="student">
+                <img src="images/student.png" alt="student">
+                <h5>СТУДЕНТ</h5>
+                <p>Профессия Веб-Верстальщика это отличная возможность для того, чтобы построить карьеру в сфере IT. В
+                    конце курса у тебя уже будет портфолио для трудоустройства</p>
+            </div>
+        </div>
+        <div class="forWhomWrapper">
+            <div class="junior-dev">
+                <img src="images/junior-dev.png" alt="junior-dev">
+                <h5>НАЧИНАЮЩИЙ ПРОГРАММИСТ</h5>
+                <p>Тем, кто уже начал осваивать HTML и CSS, но хочет получить структурированные знания и конструктивный
+                    фидбек</p>
+            </div>
+            <div class="new-prof-girl">
+                <img src="images/new-prof-girl.png" alt="new-prof-girl">
+                <h5>ХОЧЕШЬ ОБУЧИТЬСЯ НОВОЙ ПРОФЕССИИ</h5>
+                <p>Веб-Верстальщик является одной из самых перспективных профессий на сегодняшний день. Это идеальный
+                    старт для того чтобы начать карьеру frontend разработчика.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount">
+        <div class="discountContainer">
+            <h3>10% скидка действует</h3>
+            <div class="timer">
+                <div class="discountCard">
+                    <p class="timerText days"></p>
+                    <p class="discountCardBottomText">дней</p>
+                </div>
+                <div class="discountCard">
+                    <p class="timerText hours"></p>
+                    <p class="discountCardBottomText">часов</p>
+                </div>
+                <div class="discountCard">
+                    <p class="timerText minutes"></p>
+                    <p class="discountCardBottomText">минут</p>
+                </div>
+                <div class="discountCard">
+                    <p class="timerText seconds"></p>
+                    <p class="discountCardBottomText">секунд</p>
+                </div>
+            </div>
+            <button class="secondaryButton">Воспользоваться скидкой</button>
+        </div>
+    </section>
+
+    <section class="teacher">
+        <h2>А кто преподает?</h2>
+        <div class="teacherWrapper">
+            <div class="teacherImg">
+                <img src="images/Yuriy-Maksimovich.png" alt="Yuriy-Maksimovich">
+            </div>
+            <div class="teacherContent">
+                <div class="teacherContentInfo">
+                    <h4>Юрий Каграманян</h4>
+                    <p>Практикующий преподаватель с опытом работы в сфере веб программирования</p>
+                </div>
+                <div class="teacherAchievments">
+                    <div class="teacherAchievmentsInfo">
+                        <img src="images/cool-smile.svg" alt="cool-smile">
+                        <p class="caption">Руководитель TEHNIKUM.CODING</p>
+                    </div>
+                    <div class="teacherAchievmentsInfo">
+                        <img src="images/winning-cup-icon.svg" alt="winning-cup-icon">
+                        <p class="caption">Призер международных олимпиад</p>
+                    </div>
+                    <div class="teacherAchievmentsInfo">
+                        <img src="images/case-icon.svg" alt="case-icon">
+                        <p class="caption">Работал с компаниями Hi-Tech Bank, UGGI, 1C-Bitrix</p>
+                    </div>
+                    <div class="teacherAchievmentsInfo">
+                        <img src="images/keyboard-icon.svg" alt="keyboard-icon">
+                        <p class="caption">Более 10 лет опыта в программировании</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="duration">
+        <h2>За 2 месяца ты станешь полноценным верстальщиком</h2>
+        <div class="durationWrapper">
+            <div>
+                <h5>— Обучаем с нуля</h5>
+                <p>Начнешь с самых основ и будешь двигаться от простого к сложному, закрепляя каждый урок практикой</p>
+            </div>
+            <div>
+                <h5>— Помогаем лучшим студентам с трудоустройством</h5>
+                <p>Лучших студентов мы рекомендуем в ведущие веб-студии Узбекистана</p>
+            </div>
+        </div>
+        <div class="durationWrapper">
+            <div>
+                <h5>— 70% практики</h5>
+                <p>Большая часть курса проходит в режиме live-коддинга, что позволяет сразу применить знания на практике
+                    и сформировать портфолио</p>
+            </div>
+            <div>
+                <h5>— Доводим до результата</h5>
+                <p>В рамках курса за твоими успехами будут следить тьюторы, которые ответят на любые возникающие вопросы
+                    и помогут усвоить материал</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="syllabus">
+        <div class="syllabusFrame">
+            <h2>Программа курса</h2>
+            <p class="caption">Урок №1: Знакомство с html, css, js и разница между ними</p>
+            <p class="caption">Урок №2: Виды сайтов и первые термины</p>
+            <p class="caption">Урок №3: CSS - базовые стили и их подключение. Палитра</p>
+            <p class="caption">Урок №4: HTML [Таблицы]</p>
+            <p class="caption">Урок №5: HTML [Формы]</p>
+            <p class="caption">Урок №6: CSS [Intermediate]</p>
+            <button class="inFrameButton">Получить полную программу курса</button>
+            <img src="images/course-program-corner.svg" alt="course-program-corner">
+        </div>
+        <button class="outFrameButton">Получить полную программу курса</button>
+    </section>
+
+    <section class="diploma">
+        <div class="diplomaContainer">
+            <h2>диплом об окончании курса</h2>
+            <img src="images/diploma-image.png" alt="diploma-image">
+            <p>Он дополнит твое портфолио и выгодно выделит тебя на собеседовании в компанию мечты</p>
+        </div>
+    </section>
+
+    <section class="wage">
+        <h2>Сколько может зарабатывать Веб-Верстальщик?</h2>
+        <p>По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам <span>от 300$</span>. Тебе
+            лишь нужно
+            набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом!</p>
+        <img src="images/vacancies-image.png" alt="vacancies-image">
+    </section>
+
+    <section class="gifts">
+        <h2>Кроме этого тебя ждут:</h2>
+        <div class="giftsContainer">
+            <div class="giftsImage">
+                <img src="images/gifts-image.png" alt="gifts-image">
+            </div>
+            <div class="giftsText">
+                <p class="caption">150$ от наших партнёров</p>
+                <p class="caption">Компьютер для каждого студента со всеми необходимыми программами</p>
+                <p class="caption">Набор студента - приветственное письмо с ссылкой на закрытую группу, канцелярские
+                    принадлежности, стикеры и партнерские промо-коды</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Отзывы наших студентов</h2>
+        <div class="reviewsWrapper">
+            <div class="card">
+                <div class="cardTop">
+                    <img src="images/youtube-icon.svg" alt="youtube-icon">
+                    <p class="caption">Я пришел в Техникум чтобы сменить профессию на front-end разработчика и
+                        окончательно
+                        расстаться с предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё
+                        получится!</p>
+                </div>
+                <div class="cardBottom">
+                    <img src="images/student-box-student-1.png" alt="student-box-student-1">
+                    <p class="caption">Руслан Мухутдинов</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="images/youtube-icon.svg" alt="youtube-icon">
+                    <p class="caption">Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После
+                        окончания курса, за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я
+                        не
+                        жалею что выбрал эту сферу!</p>
+                </div>
+                <div class="cardBottom">
+                    <img src="images/student-box-student-2.jpg" alt="student-box-student-2">
+                    <p class="caption">Юлдашев Искандер</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="images/youtube-icon.svg" alt="youtube-icon">
+                    <p class="caption">Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию.
+                        Меня
+                        это заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я
+                        планирую
+                        дальше развиваться и двигаться вперед в этой сфере.</p>
+                </div>
+                <div class="cardBottom">
+                    <img src="images/student-box-student-3.jpg" alt="student-box-student-3">
+                    <p class="caption">Махмудов Джахонгир </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount">
+        <div class="discountContainer">
+            <h3>10% скидка действует</h3>
+            <div class="timer">
+                <div class="discountCard">
+                    <p class="timerText days"></p>
+                    <p class="discountCardBottomText">дней</p>
+                </div>
+                <div class="discountCard">
+                    <p class="timerText hours"></p>
+                    <p class="discountCardBottomText">часов</p>
+                </div>
+                <div class="discountCard">
+                    <p class="timerText minutes"></p>
+                    <p class="discountCardBottomText">минут</p>
+                </div>
+                <div class="discountCard">
+                    <p class="timerText seconds"></p>
+                    <p class="discountCardBottomText">секунд</p>
+                </div>
+            </div>
+            <button class="secondaryButton">Воспользоваться скидкой</button>
+        </div>
+    </section>
+
+    <section class="stats">
+        <h2>Немного о нас</h2>
+        <div class="statsWrapper">
+            <div class="statsContentWrapper">
+                <div>
+                    <img src="images/winning-cup-icon.svg" alt="winning-cup-icon">
+                </div>
+                <div>
+                    <h5>Резиденты IT-парка и одна из самых успешных DIGITAL-школ в Узбекистане</h5>
+                </div>
+            </div>
+            <div class="statsContentWrapper">
+                <div>
+                    <h2 class="h2Bold">> 2500</h2>
+                    <p class="caption">выпускников</p>
+                </div>
+                <div>
+                    <h2 class="h2Bold">10 направлений </h2>
+                    <p class="caption">обучения в сфере Digital</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="finale">
+        <h2>Все еще сомневаешься?</h2>
+        <p>Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
+        <div class="sliderWrapper">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="sliderSwitch">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerLeft">
+            <h2>запишись на курс прямо сейчас!</h2>
+            <div class="courses">
+                <div><img src="images/keyboard-icon.svg" alt="keyboard-icon">
+                    <p>HTML, CSS, JS</p>
+                </div>
+                <div><img src="images/game-icon.svg" alt="game-icon">
+                    <p>Разработка онлайн игр</p>
+                </div>
+                <div><img src="images/database-icon.svg" alt="database-icon">
+                    <p>Введение в Bootstrap и Github</p>
+                </div>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="formContainer">
+                <div class="sale">
+                    <p>10%</p>
+                </div>
+                <h6>оставь заявку</h6>
+                <p class="caption">начало обучения: 1 декабря</p>
+                <form action="#">
+                    <div class="inputContainer">
+                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="Фамилия">
+                        <div>
+                            <img src="images/uzb-flag.svg" alt="uzb-flag">
+                            <input type="text" placeholder="+998 (__) ____  __  __">
+                        </div>
+                    </div>
+                    <button>Записаться на курс</button>
+                </form>
+                <span>Остались вопросы?</span>
+                <span>Звони: +998 33 135 33 55</span>
+                <span>Наши консультанты доступны каждый день</span>
+                <span>с 10:00 до 22:00.</span>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
